@@ -1,0 +1,17 @@
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textViewSlotTime"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:textSize="18sp"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_margin="5dp"
+    android:gravity="center"
+    android:textColor="@android:color/white"
+    android:background="@drawable/slot_item_background"
+    android:fontFamily="sans-serif-medium"
+    android:textStyle="bold"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="5dp"/>

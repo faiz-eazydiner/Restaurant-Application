@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:elevation="8dp"
+    android:background="@drawable/rounded_pupup_background">
+
+    <TextView
+        android:id="@+id/textViewConfirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking Details"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurant Name:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="8dp"/>
+
+        <TextView
+            android:id="@+id/namePopUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bubby's Restro"
+            android:textColor="@color/lavender"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginStart="10dp"/>
+        <TextView
+            android:id="@+id/popUpDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="January 1, 2023"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/lavender"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Slot:"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/popUpTimeSlot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:00 PM - 01:00 PM"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/lavender"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of Persons:"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/popUpNumberOfPerson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="serif"
+            android:text="3"
+            android:textColor="@color/lavender"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Number:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/popUpContactNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9987435654"
+            android:textColor="@color/lavender"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonDismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dismiss"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
